@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poppins:wght@500&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Background */
+body{
+    background: url(./IMG/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Main section */
+.container{
+    color: #fff;
+    position:absolute;
+    top: 27%;
+    left: 42%;
+}
+
+.heading{
+    display:inline-block;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    border-bottom: 4px solid purple;
+    margin-bottom: 1.129rem;
+    padding: .921rem 0;
+}
+
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 1px solid purple;
+}
+
+.box input{
+    font-family: 'Roboto Mono', monospace;
+    background: none;
+    width: 75%;
+    padding: 5px 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+}
+
+.btn{
+    margin: 12px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 12px;
+    border: 2px solid purple;
+    border-radius: 7px;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: white;
+    color:purple;
+}
